@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320">
+  <defs>
+    <linearGradient id="bgMetro" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="50%" stop-color="#FDA4AF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="320" rx="16" fill="url(#bgMetro)"/>
+
+  <rect x="0" y="270" width="500" height="50" fill="#1E293B"/>
+
+  <!-- Metrocentro Landmark Department Store -->
+  <rect x="60" y="90" width="380" height="180" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="50" y="80" width="400" height="30" fill="#D11927"/>
+  <text x="250" y="102" font-family="'Montserrat', sans-serif" font-weight="900" font-size="16" letter-spacing="3" fill="#FFFFFF" text-anchor="middle">SIMAN METROCENTRO</text>
+
+  <!-- Large multi-level facade columns -->
+  <rect x="90" y="125" width="40" height="145" fill="#D11927" fill-opacity="0.15"/>
+  <rect x="170" y="125" width="40" height="145" fill="#D11927" fill-opacity="0.15"/>
+  <rect x="250" y="125" width="40" height="145" fill="#D11927" fill-opacity="0.15"/>
+  <rect x="330" y="125" width="40" height="145" fill="#D11927" fill-opacity="0.15"/>
+
+  <!-- Entrance doors -->
+  <rect x="200" y="200" width="100" height="70" fill="#0284C7" fill-opacity="0.4" stroke="#0F172A" stroke-width="2"/>
+
+  <!-- Location Badge -->
+  <rect x="20" y="20" width="280" height="32" rx="16" fill="#0F172A"/>
+  <text x="160" y="41" font-family="'Poppins', sans-serif" font-weight="600" font-size="12" fill="#FFFFFF" text-anchor="middle">📍 Metrocentro San Salvador • 8ª Etapa</text>
+</svg>

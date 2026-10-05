@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bgTech" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+    <filter id="techShadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0C4A6E" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#bgTech)"/>
+  
+  <!-- Tech Gadgets: Laptop & Smartphone & Headphones -->
+  <g transform="translate(90, 50)" filter="url(#techShadow)">
+    <!-- Laptop -->
+    <rect x="30" y="40" width="160" height="105" rx="8" fill="#1E293B"/>
+    <rect x="38" y="48" width="144" height="89" rx="4" fill="url(#screenGrad)"/>
+    <!-- Laptop screen glow content -->
+    <path d="M 50 110 L 80 80 L 110 95 L 150 65 L 170 85" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.8"/>
+    <!-- Laptop base -->
+    <path d="M 10 145 L 210 145 L 195 158 L 25 158 Z" fill="#94A3B8"/>
+    <rect x="95" y="146" width="30" height="3" rx="1.5" fill="#475569"/>
+
+    <!-- Smartphone -->
+    <g transform="translate(165, 80)">
+      <rect x="0" y="0" width="50" height="90" rx="10" fill="#0F172A"/>
+      <rect x="3" y="3" width="44" height="84" rx="8" fill="#0284C7"/>
+      <!-- Screen accents -->
+      <circle cx="25" cy="10" r="3" fill="#0F172A"/>
+      <rect x="10" y="25" width="30" height="4" rx="2" fill="#FFFFFF" opacity="0.6"/>
+      <rect x="10" y="35" width="22" height="4" rx="2" fill="#FFFFFF" opacity="0.6"/>
+    </g>
+
+    <!-- Headphones -->
+    <g transform="translate(0, 75)">
+      <path d="M 10 40 A 25 25 0 0 1 55 40" fill="none" stroke="#0F172A" stroke-width="7" stroke-linecap="round"/>
+      <rect x="4" y="32" width="12" height="25" rx="6" fill="#D11927"/>
+      <rect x="49" y="32" width="12" height="25" rx="6" fill="#D11927"/>
+    </g>
+  </g>
+
+  <!-- Promo Badge -->
+  <g transform="translate(20, 20)">
+    <rect width="120" height="32" rx="16" fill="#D11927"/>
+    <text x="60" y="21" font-family="'Montserrat', sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">HASTA 35% OFF</text>
+  </g>
+  
+  <!-- Category Title -->
+  <text x="25" y="260" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#0369A1">Tecnología &amp; Audio</text>
+  <text x="25" y="280" font-family="'Poppins', sans-serif" font-weight="500" font-size="12" fill="#0C4A6E">Smartphones, computación y pantallas 4K</text>
+</svg>

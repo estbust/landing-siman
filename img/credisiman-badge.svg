@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200" width="340" height="200">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="60%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  
+  <rect x="10" y="10" width="320" height="180" rx="16" fill="url(#cardGrad)" filter="url(#cardShadow)"/>
+  
+  <!-- Subtle decorative wave pattern -->
+  <path d="M 10 90 Q 90 40 180 80 T 330 60 L 330 190 L 10 190 Z" fill="url(#goldAccent)" opacity="0.12"/>
+  <path d="M 10 120 Q 120 70 220 110 T 330 90 L 330 190 L 10 190 Z" fill="#D11927" opacity="0.18"/>
+  
+  <!-- Credisiman Logo on card -->
+  <g transform="translate(30, 26)">
+    <polygon points="12,0 24,12 12,24 0,12" fill="url(#goldAccent)"/>
+    <text x="32" y="18" font-family="'Montserrat', sans-serif" font-weight="800" font-size="16" letter-spacing="2" fill="#FFFFFF">CREDISIMAN</text>
+    <text x="32" y="27" font-family="'Poppins', sans-serif" font-weight="500" font-size="6.5" letter-spacing="1" fill="#D4AF37">EL SALVADOR</text>
+  </g>
+
+  <!-- Chip EMV -->
+  <rect x="35" y="70" width="40" height="30" rx="6" fill="url(#chipGrad)"/>
+  <line x1="35" y1="85" x2="75" y2="85" stroke="#92400E" stroke-width="1"/>
+  <line x1="55" y1="70" x2="55" y2="100" stroke="#92400E" stroke-width="1"/>
+  <circle cx="55" cy="85" r="4" fill="none" stroke="#92400E" stroke-width="1"/>
+
+  <!-- Contactless symbol -->
+  <path d="M 90 75 A 15 15 0 0 1 90 95" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.75"/>
+  <path d="M 95 72 A 20 20 0 0 1 95 98" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.75"/>
+
+  <!-- Card Number & Holder -->
+  <text x="35" y="132" font-family="'Courier New', monospace" font-weight="bold" font-size="13" letter-spacing="3" fill="#F8FAFC">••••  ••••  ••••  2026</text>
+  <text x="35" y="154" font-family="'Poppins', sans-serif" font-size="8" fill="#94A3B8" letter-spacing="1">TITULAR EXCLUSIVO</text>
+  <text x="35" y="167" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10.5" fill="#FFFFFF" letter-spacing="1.5">CLIENTE PREFERENCIAL</text>
+
+  <!-- Diamond Status Badge -->
+  <rect x="235" y="145" width="80" height="24" rx="12" fill="url(#goldAccent)"/>
+  <text x="275" y="161" font-family="'Montserrat', sans-serif" font-weight="700" font-size="9" fill="#0F172A" text-anchor="middle" letter-spacing="1">DIAMANTE</text>
+</svg>

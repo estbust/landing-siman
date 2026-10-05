@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320">
+  <defs>
+    <linearGradient id="bgSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A044E"/>
+      <stop offset="60%" stop-color="#701A75"/>
+      <stop offset="100%" stop-color="#A21CAF"/>
+    </linearGradient>
+    <linearGradient id="roseGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FDA4AF"/>
+      <stop offset="100%" stop-color="#F43F5E"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="320" rx="16" fill="url(#bgSkin)"/>
+
+  <!-- Glowing floral/sparkle accents -->
+  <g fill="#FDF2F8" opacity="0.6">
+    <circle cx="100" cy="80" r="3"/>
+    <circle cx="120" cy="110" r="4"/>
+    <circle cx="380" cy="90" r="5"/>
+    <circle cx="410" cy="120" r="3"/>
+    <polygon points="110,60 115,70 125,75 115,80 110,90 105,80 95,75 105,70"/>
+    <polygon points="390,70 395,80 405,85 395,90 390,100 385,90 375,85 385,80"/>
+  </g>
+
+  <!-- Mirror & Beauty Tools Illustration -->
+  <g transform="translate(190, 80)">
+    <!-- Round Vanity Mirror with light bulbs -->
+    <circle cx="60" cy="65" r="55" fill="none" stroke="url(#roseGold)" stroke-width="8"/>
+    <circle cx="60" cy="65" r="47" fill="#FDF4FF" opacity="0.8"/>
+    <!-- Mirror Base -->
+    <path d="M 60 120 L 60 150 M 35 150 L 85 150" stroke="url(#roseGold)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Sparkles on mirror -->
+    <path d="M 45 45 L 75 75 M 50 75 L 70 55" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Event Badge -->
+  <rect x="25" y="25" width="160" height="30" rx="15" fill="url(#roseGold)"/>
+  <text x="105" y="45" font-family="'Montserrat', sans-serif" font-weight="800" font-size="11" fill="#FFFFFF" text-anchor="middle">BEAUTY MASTERCLASS</text>
+
+  <!-- Date Pill -->
+  <rect x="360" y="25" width="115" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.2"/>
+  <text x="417" y="45" font-family="'Poppins', sans-serif" font-weight="600" font-size="11" fill="#FFFFFF" text-anchor="middle">02 NOVIEMBRE</text>
+</svg>
